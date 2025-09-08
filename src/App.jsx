@@ -132,7 +132,7 @@ function App() {
           ))}
         </div>
       </div>
-      {/* tentang */}ƒ
+      {/* tentang */}
       {/* Projects */}
       <div className="proyek mt-32 py-10" id="proyek">
         <h1 className="text-center text-4xl font-bold mb-2" data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">Projects</h1>
