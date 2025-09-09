@@ -49,17 +49,14 @@ function App() {
       </div>
 
       {/* TENTANG */}
-      <div
-        id="tentang"
-        className="
-          mx-auto w-full max-w-[1600px]
-          mt-[65px] md:mt-[110px] 
-          rounded-3xl border-[5px] border-violet-500/40
-          shadow-[0_0_30px_rgba(168,85,247,0.4)]
-          bg-gradient-to-br from-[#0a0a0a] via-[#111111] to-[#1a1a1a]
-          p-6
-        "
-      >
+      <section
+  id="tentang"
+  className="mx-auto w-full max-w-[1600px] my-24 md:my-32
+             rounded-3xl border-[5px] border-violet-500/40
+             shadow-[0_0_30px_rgba(168,85,247,0.4)]
+             bg-gradient-to-br from-[#0a0a0a] via-[#111111] to-[#1a1a1a]
+             p-6 md:p-10 py-16 md:py-20"
+>
         <div
           className="flex flex-col md:flex-row items-center justify-between gap-10 pt-0 px-8"
           data-aos="fade-up"
@@ -123,7 +120,7 @@ function App() {
             </div>
           </div>
         </div>
-      </div>
+      </section>
 
       {/* TOOLS */}
       <div className="tools mt-32">
