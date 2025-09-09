@@ -109,8 +109,8 @@ export const listProyek = [
   {
     id: 1,
     gambar: Proyek1,
-    nama: "Bike Saleds Dashboard",
-    desk: "Built an interactive dashboard to analyze European bike sales data, highlighting revenue, profit, and customer demographics. Provided insights that Germany is the strongest market, women dominate purchases (54.8%), and young adult women (25–34) are the top contributors.",
+    nama: "Bike Sales Dashboard",
+    desk: "Interactive dashboard analyzing European bike sales. Revealed Germany as top market, women as main buyers (54.8%), and young adults (25–34) as key contributors.",
     tools: ["HTML", "CSS", "Javascript", "Big Query", "Looker Studio", "Github"],
     dad: "200",
   },
