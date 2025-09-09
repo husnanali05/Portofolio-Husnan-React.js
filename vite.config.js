@@ -3,10 +3,10 @@ import react from '@vitejs/plugin-react'
 import tailwindcss from '@tailwindcss/vite'
 
 export default defineConfig({
-  base: '/',              // <-- IMPORTANT for Netlify root deploy
+  base: '/',              
   build: {
     outDir: 'dist',
-    assetsDir: 'assets',  // keep assets under /assets
+    assetsDir: 'assets',  
   },
   plugins: [react(), tailwindcss()],
 })

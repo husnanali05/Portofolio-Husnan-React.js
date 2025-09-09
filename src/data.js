@@ -8,15 +8,15 @@ export default Image;
 
 import Tools1 from "/assets/tools/vscode.png";
 import Tools2 from "/assets/tools/reactjs.png";
-import Tools3 from "/assets/tools/nextjs.png";
-import Tools4 from "/assets/tools/tailwind.png";
-import Tools5 from "/assets/tools/bootstrap.png";
+import Tools3 from "dist/assets/tools/cpp.png";
+import Tools4 from "dist/assets/tools/looker.png";
+import Tools5 from "dist/assets/tools/MySQL.png";
 import Tools6 from "/assets/tools/js.png";
-import Tools7 from "/assets/tools/nodejs.png";
+import Tools7 from "dist/assets/tools/python.png";
 import Tools8 from "/assets/tools/github.png";
-import Tools9 from "/assets/tools/ai.png";
-import Tools10 from "/assets/tools/canva.png";
-import Tools11 from "/assets/tools/figma.png";
+import Tools9 from "dist/assets/tools/R.png";
+import Tools10 from "dist/assets/tools/html.png";
+import Tools11 from "dist/assets/tools/css.png";
 
 export const listTools = [
   {
@@ -36,22 +36,22 @@ export const listTools = [
   {
     id: 3,
     gambar: Tools3,
-    nama: "Next JS",
-    ket: "Framework",
+    nama: "C++",
+    ket: "Language",
     dad: "300",
   },
   {
     id: 4,
     gambar: Tools4,
-    nama: "Tailwind CSS",
-    ket: "Framework",
+    nama: "Looker Studio",
+    ket: "Dashboard",
     dad: "400",
   },
   {
     id: 5,
     gambar: Tools5,
-    nama: "Bootstrap",
-    ket: "Framework",
+    nama: "MySQL",
+    ket: "Database",
     dad: "500",
   },
   {
@@ -64,8 +64,8 @@ export const listTools = [
   {
     id: 7,
     gambar: Tools7,
-    nama: "Node JS",
-    ket: "Javascript Runtime",
+    nama: "Python",
+    ket: "Language",
     dad: "700",
   },
   {
@@ -78,22 +78,22 @@ export const listTools = [
   {
     id: 9,
     gambar: Tools9,
-    nama: "Adobe Illustrator",
-    ket: "Design App",
+    nama: "R",
+    ket: "Language",
     dad: "900",
   },
   {
     id: 10,
     gambar: Tools10,
-    nama: "Canva",
-    ket: "Design App",
+    nama: "HTML",
+    ket: "Language",
     dad: "1000",
   },
   {
     id: 11,
     gambar: Tools11,
-    nama: "Figma",
-    ket: "Design App",
+    nama: "CSS",
+    ket: "Language",
     dad: "1100",
   },
 ];
