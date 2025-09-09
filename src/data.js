@@ -8,15 +8,15 @@ export default Image;
 
 import Tools1 from "/assets/tools/vscode.png";
 import Tools2 from "/assets/tools/reactjs.png";
-import Tools3 from "dist/assets/tools/cpp.png";
-import Tools4 from "dist/assets/tools/looker.png";
-import Tools5 from "dist/assets/tools/MySQL.png";
+import Tools3 from "/assets/tools/cpp.png";
+import Tools4 from "/assets/tools/looker.png";
+import Tools5 from "/assets/tools/mysql.png";
 import Tools6 from "/assets/tools/js.png";
-import Tools7 from "dist/assets/tools/python.png";
+import Tools7 from "/assets/tools/python.png";
 import Tools8 from "/assets/tools/github.png";
-import Tools9 from "dist/assets/tools/R.png";
-import Tools10 from "dist/assets/tools/html.png";
-import Tools11 from "dist/assets/tools/css.png";
+import Tools9 from "/assets/tools/r.png";
+import Tools10 from "/assets/tools/html.png";
+import Tools11 from "/assets/tools/css.png";
 
 export const listTools = [
   {
