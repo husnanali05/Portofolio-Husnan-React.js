@@ -113,6 +113,7 @@ export const listProyek = [
     desk: "Interactive dashboard analyzing European bike sales. Revealed Germany as top market, women as main buyers (54.8%), and young adults (25–34) as key contributors.",
     tools: ["HTML", "CSS", "Javascript", "Big Query", "Looker Studio", "Github"],
     dad: "200",
+    link: "https://kampus-merdeka-software-engineering.github.io/km-feb24-jakarta-8/",
   },
   {
     id: 2,
