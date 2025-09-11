@@ -215,7 +215,14 @@ function App() {
                 </div>
                 <div className="mt-8 text-center">
                   <div className="flex flex-col sm:flex-row gap-3 justify-center">
-                    {proyek.links?.map((linkItem, index) => (
+                    {(proyek.links?.length
+                      ? proyek.links
+                      : [{
+                        type: "live",
+                        url: proyek.link,             // fallback ke field lama
+                        label: "Live Demo"
+                      }]
+                    ).map((linkItem, index) =>
                       linkItem.type === "pdf" ? (
                         <a
                           key={index}
@@ -236,7 +243,7 @@ function App() {
                           {linkItem.label}
                         </a>
                       )
-                    ))}
+                    )}
                   </div>
                 </div>
               </div>

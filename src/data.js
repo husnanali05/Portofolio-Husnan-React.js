@@ -113,8 +113,8 @@ export const listProyek = [
     desk: "Interactive dashboard analyzing European bike sales. Revealed Germany as top market, women as main buyers (54.8%), and young adults (25–34) as key contributors.",
     tools: ["HTML", "CSS", "Javascript", "Big Query", "Looker Studio", "Github"],
     dad: "200",
-    link: [
-      { label: "Live Demo", url: "https://kampus-merdeka-software-engineering.github.io/km-feb24-jakarta-8/" }
+    links: [
+      { type: "live", url: "https://kampus-merdeka-software-engineering.github.io/km-feb24-jakarta-8/", label: "Live Demo" }
     ],
   },
   {
@@ -124,17 +124,9 @@ export const listProyek = [
     desk: "Built churn prediction with Logistic Regression with 78% accuracy. Segmented customers into Low, Medium, High risk and visualized key factors (monthly charge, tenure, competition) to support retention strategies.",
     tools: ["Python", "Looker Studio", "MySQL"],
     dad: "300",
-    link: [
-      { 
-        label: "Live Demo", 
-        url: "https://lookerstudio.google.com/u/0/reporting/23a7c9a4-3baa-440d-99af-f95a470f49a2/page/tXVUE", 
-        type: "link" 
-      },
-      { 
-        label: "Download Report", 
-        url: "/assets/pdf/vertopal.com_Telecom_analysis.pdf",  
-        type: "pdf" 
-      }
+    links: [
+      { type: "live", url: "https://lookerstudio.google.com/reporting/23a7c9a4-3baa-440d-99af-f95a470f49a2", label: "Live Demo" },
+      { type: "pdf", url: "/assets/pdf/vertopal.com_Telecom_analysis.pdf", label: "Case Study (PDF)" }
     ],
   },
   {
@@ -144,8 +136,8 @@ export const listProyek = [
     desk: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, laborum!",
     tools: ["Vite", "ReactJS", "TailwindCSS", "AOS"],
     dad: "400",
-    link: [
-      { label: "Live Demo", url: "https://kampus-merdeka-software-engineering.github.io/km-feb24-jakarta-8/" }
+    links: [
+      { type: "live", url: "https://kampus-merdeka-software-engineering.github.io/km-feb24-jakarta-8/", label: "Live Demo" }
     ],
   },
   {
@@ -155,8 +147,8 @@ export const listProyek = [
     desk: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, laborum!",
     tools: ["Vite", "ReactJS", "Bootstrap", "AOS"],
     dad: "500",
-    link: [
-      { label: "Live Demo", url: "https://kampus-merdeka-software-engineering.github.io/km-feb24-jakarta-8/" }
+    links: [
+      { type: "live", url: "https://kampus-merdeka-software-engineering.github.io/km-feb24-jakarta-8/", label: "Live Demo" }
     ],
   },
   {
@@ -166,8 +158,8 @@ export const listProyek = [
     desk: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, laborum!",
     tools: ["HTML", "CSS", "Javascript", "Bootsrap"],
     dad: "600",
-    link: [
-      { label: "Live Demo", url: "https://kampus-merdeka-software-engineering.github.io/km-feb24-jakarta-8/" }
+    links: [
+      { type: "live", url: "https://kampus-merdeka-software-engineering.github.io/km-feb24-jakarta-8/", label: "Live Demo" }
     ],
   },
   {
@@ -177,8 +169,8 @@ export const listProyek = [
     desk: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, laborum!",
     tools: ["NextJS", "TailwindCSS", "Framermotion"],
     dad: "700",
-    link: [
-      { label: "Live Demo", url: "https://kampus-merdeka-software-engineering.github.io/km-feb24-jakarta-8/" }
+    links: [
+      { type: "live", url: "https://kampus-merdeka-software-engineering.github.io/km-feb24-jakarta-8/", label: "Live Demo" }
     ],
   },
 ];
