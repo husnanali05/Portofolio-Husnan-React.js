@@ -50,13 +50,13 @@ function App() {
 
       {/* TENTANG */}
       <section
-  id="tentang"
-  className="mx-auto w-full max-w-[1600px] my-24 md:my-32
+        id="tentang"
+        className="mx-auto w-full max-w-[1600px] my-24 md:my-32
              rounded-3xl border-[5px] border-violet-500/40
              shadow-[0_0_30px_rgba(168,85,247,0.4)]
              bg-gradient-to-br from-[#0a0a0a] via-[#111111] to-[#1a1a1a]
              p-6 md:p-10 py-16 md:py-20"
->
+      >
         <div
           className="flex flex-col md:flex-row items-center justify-between gap-10 pt-0 px-8"
           data-aos="fade-up"
@@ -214,12 +214,30 @@ function App() {
                   ))}
                 </div>
                 <div className="mt-8 text-center">
-                  <a
-                    className="bg-violet-700 p-3 rounded-lg block border border-zinc-600 hover:bg-violet-600"
-                    href={proyek.link} target="_blank" rel="noopener noreferrer"
-                  >
-                    Live Demo
-                  </a>
+                  <div className="flex flex-col sm:flex-row gap-3 justify-center">
+                    {proyek.links?.map((linkItem, index) => (
+                      linkItem.type === "pdf" ? (
+                        <a
+                          key={index}
+                          href={linkItem.url}
+                          download
+                          className="bg-zinc-700 p-3 rounded-lg border border-zinc-600 hover:bg-zinc-600 flex-1"
+                        >
+                          {linkItem.label}
+                        </a>
+                      ) : (
+                        <a
+                          key={index}
+                          href={linkItem.url}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="bg-violet-700 p-3 rounded-lg border border-zinc-600 hover:bg-violet-600 flex-1"
+                        >
+                          {linkItem.label}
+                        </a>
+                      )
+                    ))}
+                  </div>
                 </div>
               </div>
             </div>

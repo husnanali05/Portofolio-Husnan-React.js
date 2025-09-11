@@ -113,15 +113,29 @@ export const listProyek = [
     desk: "Interactive dashboard analyzing European bike sales. Revealed Germany as top market, women as main buyers (54.8%), and young adults (25–34) as key contributors.",
     tools: ["HTML", "CSS", "Javascript", "Big Query", "Looker Studio", "Github"],
     dad: "200",
-    link: "https://kampus-merdeka-software-engineering.github.io/km-feb24-jakarta-8/",
+    link: [
+      { label: "Live Demo", url: "https://kampus-merdeka-software-engineering.github.io/km-feb24-jakarta-8/" }
+    ]
   },
   {
     id: 2,
     gambar: Proyek2,
-    nama: "Company Profile",
-    desk: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, laborum!",
+    nama: "Telecom Churn Analysis",
+    desk: "Built churn prediction with Logistic Regression with 78% accuracy. Segmented customers into Low, Medium, High risk and visualized key factors (monthly charge, tenure, competition) to support retention strategies.",
     tools: ["HTML", "CSS", "Javascript", "AOS", "Swiper", "Lightbox Gallery"],
     dad: "300",
+    link: [
+      { 
+        label: "Live Demo", 
+        url: "https://lookerstudio.google.com/u/0/reporting/23a7c9a4-3baa-440d-99af-f95a470f49a2/page/tXVUE", 
+        type: "link" 
+      },
+      { 
+        label: "Download Report", 
+        url: "/assets/pdf/vertopal.com_Telecom_analysis.pdf",  
+        type: "pdf" 
+      }
+    ]
   },
   {
     id: 3,
