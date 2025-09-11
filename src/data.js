@@ -99,7 +99,7 @@ export const listTools = [
 ];
 
 import Proyek1 from "/assets/proyek/project1.webp";
-import Proyek2 from "/assets/proyek/proyek2.webp";
+import Proyek2 from "/assets/proyek/project2.webp";
 import Proyek3 from "/assets/proyek/proyek3.webp";
 import Proyek4 from "/assets/proyek/proyek4.webp";
 import Proyek5 from "/assets/proyek/proyek5.webp";
@@ -115,14 +115,14 @@ export const listProyek = [
     dad: "200",
     link: [
       { label: "Live Demo", url: "https://kampus-merdeka-software-engineering.github.io/km-feb24-jakarta-8/" }
-    ]
+    ],
   },
   {
     id: 2,
     gambar: Proyek2,
     nama: "Telecom Churn Analysis",
     desk: "Built churn prediction with Logistic Regression with 78% accuracy. Segmented customers into Low, Medium, High risk and visualized key factors (monthly charge, tenure, competition) to support retention strategies.",
-    tools: ["HTML", "CSS", "Javascript", "AOS", "Swiper", "Lightbox Gallery"],
+    tools: ["Python", "Looker Studio", "MySQL"],
     dad: "300",
     link: [
       { 
@@ -135,7 +135,7 @@ export const listProyek = [
         url: "/assets/pdf/vertopal.com_Telecom_analysis.pdf",  
         type: "pdf" 
       }
-    ]
+    ],
   },
   {
     id: 3,
@@ -144,6 +144,9 @@ export const listProyek = [
     desk: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, laborum!",
     tools: ["Vite", "ReactJS", "TailwindCSS", "AOS"],
     dad: "400",
+    link: [
+      { label: "Live Demo", url: "https://kampus-merdeka-software-engineering.github.io/km-feb24-jakarta-8/" }
+    ],
   },
   {
     id: 4,
@@ -152,6 +155,9 @@ export const listProyek = [
     desk: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, laborum!",
     tools: ["Vite", "ReactJS", "Bootstrap", "AOS"],
     dad: "500",
+    link: [
+      { label: "Live Demo", url: "https://kampus-merdeka-software-engineering.github.io/km-feb24-jakarta-8/" }
+    ],
   },
   {
     id: 5,
@@ -160,6 +166,9 @@ export const listProyek = [
     desk: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, laborum!",
     tools: ["HTML", "CSS", "Javascript", "Bootsrap"],
     dad: "600",
+    link: [
+      { label: "Live Demo", url: "https://kampus-merdeka-software-engineering.github.io/km-feb24-jakarta-8/" }
+    ],
   },
   {
     id: 6,
@@ -168,5 +177,8 @@ export const listProyek = [
     desk: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, laborum!",
     tools: ["NextJS", "TailwindCSS", "Framermotion"],
     dad: "700",
+    link: [
+      { label: "Live Demo", url: "https://kampus-merdeka-software-engineering.github.io/km-feb24-jakarta-8/" }
+    ],
   },
 ];
