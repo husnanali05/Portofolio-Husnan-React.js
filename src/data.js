@@ -110,7 +110,7 @@ export const listProyek = [
     id: 1,
     gambar: Proyek1,
     nama: "Bike Sales Dashboard",
-    desk: "Interactive dashboard analyzing European bike sales. Revealed Germany as top market, women as main buyers (54.8%), and young adults (25–34) as key contributors.",
+    desk: "Bike sales dashboard showing Germany as top market, women 54.8%, and young adults as key buyers.",
     tools: ["HTML", "CSS", "Javascript", "Big Query", "Looker Studio", "Github"],
     dad: "200",
     links: [
@@ -121,7 +121,7 @@ export const listProyek = [
     id: 2,
     gambar: Proyek2,
     nama: "Telecom Churn Analysis",
-    desk: "Built churn prediction with Logistic Regression with 78% accuracy. Segmented customers into Low, Medium, High risk and visualized key factors (monthly charge, tenure, competition) to support retention strategies.",
+    desk: "Churn prediction with Logistic Regression (78% accuracy), customer risk segmentation, and key factor visualization (charges, tenure, competition) for retention strategies.",
     tools: ["Python", "Looker Studio", "MySQL"],
     dad: "300",
     links: [
@@ -133,7 +133,7 @@ export const listProyek = [
     id: 3,
     gambar: Proyek3,
     nama: "Pima Diabetes Analysis",
-    desk: "Predicted diabetes using ML models. Random Forest reached 82% testing accuracy, Logistic Regression best ROC-AUC (0.89).",
+    desk: "Predicted diabetes using ML models. Random Forest reached 81% testing accuracy, Logistic Regression best ROC-AUC (0.89).",
     tools: ["R Studio", "MySQL", "R Shiny"],
     dad: "400",
     links: [
