@@ -100,7 +100,7 @@ export const listTools = [
 
 import Proyek1 from "/assets/proyek/project1.webp";
 import Proyek2 from "/assets/proyek/project2.webp";
-import Proyek3 from "/assets/proyek/proyek3.webp";
+import Proyek3 from "/assets/proyek/project3.webp";
 import Proyek4 from "/assets/proyek/proyek4.webp";
 import Proyek5 from "/assets/proyek/proyek5.webp";
 import Proyek6 from "/assets/proyek/proyek6.webp";
@@ -132,12 +132,13 @@ export const listProyek = [
   {
     id: 3,
     gambar: Proyek3,
-    nama: "Web Pernikahan 2.0",
-    desk: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, laborum!",
-    tools: ["Vite", "ReactJS", "TailwindCSS", "AOS"],
+    nama: "Pima Indian Diabetes Analysis",
+    desk: "Classified diabetes risk using Random Forest, SVM, and Logistic Regression. Logistic Regression achieved best ROC-AUC (0.89), while Random Forest gave highest testing accuracy (81%). Applied preprocessing, feature scaling, and cross-validation for robust results",
+    tools: ["R", "MySQL", "Shiny Dashboard"],
     dad: "400",
     links: [
-      { type: "live", url: "https://kampus-merdeka-software-engineering.github.io/km-feb24-jakarta-8/", label: "Live Demo" }
+      { type: "live", url: "https://husnanalih.shinyapps.io/r-shiny-dashboard/", label: "Live Demo" },
+      { type: "link", label: "Journal Report", url: "https://medium.com/@arimoch83/comparative-analysis-of-random-forest-svm-and-logistic-regression-for-diabetes-classification-327d834d8da7" }
     ],
   },
   {

@@ -215,20 +215,22 @@ function App() {
                 </div>
                 <div className="mt-8 text-center">
                   <div className="flex flex-col sm:flex-row gap-3 justify-center">
-                    {(proyek.links?.length
+                    {(proyek.links && proyek.links.length > 0
                       ? proyek.links
-                      : [{
-                        type: "live",
-                        url: proyek.link,             // fallback ke field lama
-                        label: "Live Demo"
-                      }]
-                    ).map((linkItem, index) =>
+                      : [
+                        {
+                          type: "link",          // ganti "live" → "link" biar konsisten
+                          url: proyek.link,      // fallback ke field lama
+                          label: "Live Demo",
+                        },
+                      ]
+                    ).map((linkItem, index) => (
                       linkItem.type === "pdf" ? (
                         <a
                           key={index}
                           href={linkItem.url}
                           download
-                          className="bg-zinc-700 p-3 rounded-lg border border-zinc-600 hover:bg-zinc-600 flex-1"
+                          className="bg-zinc-700 p-3 rounded-lg border border-zinc-600 hover:bg-zinc-600 text-center flex-1"
                         >
                           {linkItem.label}
                         </a>
@@ -238,12 +240,12 @@ function App() {
                           href={linkItem.url}
                           target="_blank"
                           rel="noopener noreferrer"
-                          className="bg-violet-700 p-3 rounded-lg border border-zinc-600 hover:bg-violet-600 flex-1"
+                          className="bg-violet-700 p-3 rounded-lg border border-zinc-600 hover:bg-violet-600 text-center flex-1"
                         >
                           {linkItem.label}
                         </a>
                       )
-                    )}
+                    ))}
                   </div>
                 </div>
               </div>
