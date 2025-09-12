@@ -132,9 +132,9 @@ export const listProyek = [
   {
     id: 3,
     gambar: Proyek3,
-    nama: "Pima Indian Diabetes Analysis",
-    desk: "Classified diabetes risk using Random Forest, SVM, and Logistic Regression. Logistic Regression achieved best ROC-AUC (0.89), while Random Forest gave highest testing accuracy (81%). Applied preprocessing, feature scaling, and cross-validation for robust results",
-    tools: ["R", "MySQL", "Shiny Dashboard"],
+    nama: "Pima Diabetes Analysis",
+    desk: "Predicted diabetes using ML models. Random Forest reached 82% testing accuracy, Logistic Regression best ROC-AUC (0.89).",
+    tools: ["R Studio", "MySQL", "R Shiny"],
     dad: "400",
     links: [
       { type: "live", url: "https://husnanalih.shinyapps.io/r-shiny-dashboard/", label: "Live Demo" },
