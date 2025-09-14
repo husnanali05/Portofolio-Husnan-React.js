@@ -102,7 +102,7 @@ import Proyek1 from "/assets/proyek/project1.webp";
 import Proyek2 from "/assets/proyek/project2.webp";
 import Proyek3 from "/assets/proyek/project3.webp";
 import Proyek4 from "/assets/proyek/project4.webp";
-import Proyek5 from "/assets/proyek/proyek5.webp";
+import Proyek5 from "/assets/proyek/project5.webp";
 import Proyek6 from "/assets/proyek/proyek6.webp";
 
 export const listProyek = [
@@ -133,7 +133,7 @@ export const listProyek = [
     id: 3,
     gambar: Proyek3,
     nama: "Pima Diabetes Analysis",
-    desk: "Classified diabetes risk using Random Forest, SVM, and Logistic Regression. Logistic Regression achieved best ROC-AUC (0.89), while Random Forest gave highest testing accuracy (82%). Applied preprocessing, feature scaling, and cross-validation for robust results.",
+    desk: "Diabetes classification using Random Forest, SVM, and Logistic Regression. Logistic Regression gave best ROC-AUC (0.89), while Random Forest achieved highest testing accuracy (82%).",
     tools: ["R Studio", "MySQL", "R Shiny"],
     dad: "400",
     links: [
@@ -155,12 +155,12 @@ export const listProyek = [
   {
     id: 5,
     gambar: Proyek5,
-    nama: "Web Portfolio",
-    desk: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, laborum!",
+    nama: "HRSG Quality Control Optimization Using Machine Learning",
+    desk: "Developed a Max-MEWMA control chart using Random Forest Regressor residuals to monitor Fuel Gas Flow, Combustion Pressure, and Gas Temperature. Improved anomaly detection sensitivity for HRSG system, identifying key out-of-control signals in real-time.",
     tools: ["HTML", "CSS", "Javascript", "Bootsrap"],
     dad: "600",
     links: [
-      { type: "live", url: "https://kampus-merdeka-software-engineering.github.io/km-feb24-jakarta-8/", label: "Live Demo" }
+      { type: "pdf", url: "/assets/pdf/Tugas Akhir_Husnan Ali Husnain_redacted.pdf", label: "Analisys Report (PDF)" }
     ],
   },
   {
