@@ -101,7 +101,7 @@ export const listTools = [
 import Proyek1 from "/assets/proyek/project1.webp";
 import Proyek2 from "/assets/proyek/project2.webp";
 import Proyek3 from "/assets/proyek/project3.webp";
-import Proyek4 from "/assets/proyek/proyek4.webp";
+import Proyek4 from "/assets/proyek/project4.webp";
 import Proyek5 from "/assets/proyek/proyek5.webp";
 import Proyek6 from "/assets/proyek/proyek6.webp";
 
@@ -133,7 +133,7 @@ export const listProyek = [
     id: 3,
     gambar: Proyek3,
     nama: "Pima Diabetes Analysis",
-    desk: "Predicted diabetes using ML models. Random Forest reached 81% testing accuracy, Logistic Regression best ROC-AUC (0.89).",
+    desk: "Classified diabetes risk using Random Forest, SVM, and Logistic Regression. Logistic Regression achieved best ROC-AUC (0.89), while Random Forest gave highest testing accuracy (82%). Applied preprocessing, feature scaling, and cross-validation for robust results.",
     tools: ["R Studio", "MySQL", "R Shiny"],
     dad: "400",
     links: [
@@ -144,12 +144,12 @@ export const listProyek = [
   {
     id: 4,
     gambar: Proyek4,
-    nama: "Website Course",
-    desk: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, laborum!",
-    tools: ["Vite", "ReactJS", "Bootstrap", "AOS"],
+    nama: "Electricity Consumption Classification in West Java",
+    desk: "Analyzed 600,000+ customer electricity records in West Java using Random Forest, XGBoost, and Logistic Regression. Random Forest achieved 92.2% accuracy (AUC 0.985), providing insights for anomaly detection and operational efficiency at PLN.",
+    tools: ["Python", "Excel", "Google Colab"],
     dad: "500",
     links: [
-      { type: "live", url: "https://kampus-merdeka-software-engineering.github.io/km-feb24-jakarta-8/", label: "Live Demo" }
+      { type: "pdf", url: "/assets/pdf/Laporan KP HUSNAN Ali_redacted.pdf", label: "Analisys Report (PDF)" }
     ],
   },
   {
