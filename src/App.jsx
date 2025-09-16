@@ -50,68 +50,77 @@ function App() {
       </div>
 
       {/* TENTANG */}
-      {/* Wrapper untuk center dengan margin atas bawah */}
-      <div className="min-h-screen flex items-center justify-center py-20">
-        {/* tentang */}
+      <section
+        id="tentang"
+        className="mt-65 mx-auto w-full max-w-[1600px] rounded-3xl border-[5px] 
+             border-violet-500/40 shadow-[0_0_30px_rgba(168,85,247,0.4)] 
+             bg-gradient-to-br from-[#0a0a0a] via-[#111111] to-[#1a1a1a] p-6"
+      >
         <div
-          className="mx-auto w-full max-w-[1600px] rounded-3xl border-[5px] border-violet-500/40 shadow-[0_0_30px_rgba(168,85,247,0.4)] bg-gradient-to-br from-[#0a0a0a] via-[#111111] to-[#1a1a1a] p-6"
-          id="tentang"
+          className="flex flex-col md:flex-row items-center justify-between gap-10 pt-0 px-8"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-once="true"
         >
-          <div
-            className="flex flex-col md:flex-row items-center justify-between gap-10 px-8"
-            data-aos="fade-up"
-            data-aos-duration="1000"
-            data-aos-once="true"
-          >
-            {/* kolom kiri */}
-            <div className="basis-full md:basis-7/12 pr-0 md:pr-8 border-b md:border-b-0 md:border-r border-violet-500/30">
-              <div className="flex-1 text-left">
-                <h2 className="text-3xl md:text-4xl font-bold text-white mb-5">About Me</h2>
-                <p className="text-base md:text-lg leading-relaxed mb-10 text-gray-300">
-                  I’m Husnan Ali Husnain, a Statistics graduate passionate about
-                  data science, AI, and building scalable solutions. I enjoy turning
-                  data into clear, useful insights and crafting practical, performant
-                  applications. Through projects and internships, I’ve worked across
-                  predictive modeling, analytics, and cloud-based development—always
-                  focused on impact and good user experience.
-                </p>
+          {/* Kiri: teks */}
+          <div className="basis-full md:basis-7/12 pr-0 md:pr-8 border-b md:border-b-0 md:border-r border-violet-500/30">
+            <div className="flex-1 text-left">
+              <h2 className="text-3xl md:text-4xl font-bold text-white mb-5">
+                About Me
+              </h2>
 
-                <div className="flex flex-col sm:flex-row items-center sm:justify-between text-center sm:text-left gap-y-8 sm:gap-y-0 mb-4 w-full">
-                  <div>
-                    <h1 className="text-3xl md:text-4xl mb-1">
-                      5<span className="text-violet-500">+</span>
-                    </h1>
-                    <p>Project Finished</p>
-                  </div>
-                  <div>
-                    <h1 className="text-3xl md:text-4xl mb-1">
-                      1<span className="text-violet-500">+</span>
-                    </h1>
-                    <p>Years of Experience</p>
-                  </div>
-                  <div>
-                    <h1 className="text-3xl md:text-4xl mb-1">
-                      3.30<span className="text-violet-500">/4.00</span>
-                    </h1>
-                    <p>GPA</p>
-                  </div>
+              <p className="text-base md:text-lg leading-relaxed mb-10 text-gray-300">
+                I’m Husnan Ali Husnain, a Statistics graduate passionate about
+                data science, AI, and building scalable solutions. I enjoy turning
+                data into clear, useful insights and crafting practical, performant
+                applications. Through projects and internships, I’ve worked across
+                predictive modeling, analytics, and cloud-based development—always
+                focused on impact and good user experience.
+              </p>
+
+              <div className="flex flex-col sm:flex-row items-center sm:justify-between text-center sm:text-left gap-y-8 sm:gap-y-0 mb-4 w-full">
+                <div>
+                  <h1 className="text-3xl md:text-4xl mb-1">
+                    5<span className="text-violet-500">+</span>
+                  </h1>
+                  <p>Project Finished</p>
                 </div>
-
-                <p className="text-sm md:text-base text-violet-400">
-                  Working with heart, creating with mind.
-                </p>
+                <div>
+                  <h1 className="text-3xl md:text-4xl mb-1">
+                    1<span className="text-violet-500">+</span>
+                  </h1>
+                  <p>Years of Experience</p>
+                </div>
+                <div
+                  data-aos="fade-up"
+                  data-aos-duration="1000"
+                  data-aos-delay="600"
+                  data-aos-once="true"
+                >
+                  <h1 className="text-3xl md:text-4xl mb-1">
+                    3.30<span className="text-violet-500">/4.00</span>
+                  </h1>
+                  <p>GPA</p>
+                </div>
               </div>
-            </div>
 
-            {/* kolom kanan */}
-            <div className="basis-full md:basis-5/12 pl-0 md:pl-8 overflow-hidden max-w-full flex justify-center md:justify-end">
+              <p className="text-sm md:text-base text-violet-400">
+                Working with heart, creating with mind.
+              </p>
+            </div>
+          </div>
+
+          {/* Kanan: Lanyard */}
+          <div className="basis-full md:basis-5/12 pl-0 md:pl-8 overflow-hidden max-w-full flex justify-center md:justify-end">
+            <div className="mt-8 lg:mt-0 lg:flex-1 flex justify-center lg:justify-end">
               <div className="w-full max-w-[380px] h-[420px] sm:h-[480px] md:h-[520px] lg:h-[560px]">
                 <Lanyard position={[0, 0, 15]} />
               </div>
             </div>
           </div>
         </div>
-      </div>
+      </section>
+
       {/* TOOLS */}
       <div className="tools mt-32">
         <h1
