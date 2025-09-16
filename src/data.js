@@ -163,15 +163,15 @@ export const listProyek = [
       { type: "pdf", url: "/assets/pdf/Tugas Akhir_Husnan Ali Husnain_redacted.pdf", label: "Analisys Report (PDF)" }
     ],
   },
-  {
-    id: 6,
-    gambar: Proyek6,
-    nama: "Company Profile 2.0",
-    desk: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, laborum!",
-    tools: ["NextJS", "TailwindCSS", "Framermotion"],
-    dad: "700",
-    links: [
-      { type: "live", url: "https://kampus-merdeka-software-engineering.github.io/km-feb24-jakarta-8/", label: "Live Demo" }
-    ],
-  },
+  // {
+  //   id: 6,
+  //   gambar: Proyek6,
+  //   nama: "Company Profile 2.0",
+  //   desk: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, laborum!",
+  //   tools: ["NextJS", "TailwindCSS", "Framermotion"],
+  //   dad: "700",
+  //   links: [
+  //     { type: "live", url: "https://kampus-merdeka-software-engineering.github.io/km-feb24-jakarta-8/", label: "Live Demo" }
+  //   ],
+  // },
 ];
